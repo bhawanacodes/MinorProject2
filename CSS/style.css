@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f8f9fa;
-}
+      font-family: 'Poppins', sans-serif;
+      background: url("../Images/background.jpeg") no-repeat center center fixed !important;
+      background-size: cover !important;
+      min-height: 100vh;
+    }
+
+    .login-card {
+      width: 100%;
+      max-width: 400px;
+      background-color: #ffffffd9;
+      backdrop-filter: blur(5px);
+    }
+
+    .logo-img {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 150px;
+    }
 
 .nav-hover:hover {
   color: #0dcaf0 !important;
